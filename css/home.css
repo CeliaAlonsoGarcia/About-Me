@@ -24,6 +24,7 @@ nav .links-items:nth-child(1)::after {
   display: block;
   border-radius: 0.3rem;
   padding-bottom: 3rem;
+  padding-top: -10rem;
 }
 
 .about {
@@ -37,7 +38,7 @@ nav .links-items:nth-child(1)::after {
 
 .text {
   text-indent: 2rem;
-  margin: 1rem 5rem 1rem 5rem;
+  margin: 1rem 2rem 1rem 2rem;
   line-height: 2rem;
   padding: 1rem 5rem 1rem;
   font-size: 23px;
