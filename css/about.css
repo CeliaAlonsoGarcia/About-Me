@@ -1,0 +1,134 @@
+/* FOR ABOUT PAGE */
+
+main {
+  margin: 5rem 7rem;
+}
+
+/* adding line to nav to show where the user is */
+
+nav .links-items:nth-child(2)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ffffff;
+  margin-top: 0.5rem;
+}
+/* style for the expandable question */
+.accordion {
+  background-color: rgba(171, 21, 168, 0.278);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+}
+
+/* hidding the text on panel */
+
+.panel {
+  display: none;
+  padding: 1rem 3rem 2rem;
+}
+
+/* background color change when clicked or hovered */
+.accordion.active,
+.accordion:hover {
+  background-color: rgba(171, 21, 169, 0.472);
+}
+
+/* Unicode character for "plus" sign (+) */
+.accordion:after {
+  content: "\2795";
+  font-size: 20px;
+  color: #777;
+  float: right;
+  margin: 0 1.5rem;
+}
+
+/* Unicode character for "minus" sign (-) */
+.accordion.active:after {
+  content: "\2796";
+}
+
+/* styling text from answers */
+
+ul {
+  list-style: none;
+}
+
+.panel p {
+  text-indent: 2rem;
+  padding: 0 2rem;
+  margin: 1rem 2rem 2rem;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+h3 {
+  margin-left: 2rem;
+  font-size: 20px;
+}
+
+.website {
+  text-decoration: underline;
+}
+
+.question p {
+  text-indent: 4rem;
+}
+
+@media (max-width: 600px) {
+  .accordion {
+    margin: 1rem;
+    font-size: 14px;
+    margin-left: -0.5rem;
+  }
+
+  .accordion:after {
+    content: "\2795";
+    font-size: 20px;
+    color: #777;
+    float: right;
+    margin: -0.5rem 0.2rem;
+  }
+
+  main {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  body {
+    padding: 1.5rem;
+  }
+
+  .panel p {
+    text-indent: 1rem;
+    padding: 0rem;
+    margin: 1rem;
+    line-height: 2rem;
+    font-size: 12px;
+  }
+
+  .panel {
+    padding: 1rem;
+  }
+
+  h3 {
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+
+  .website {
+    text-decoration: underline;
+  }
+
+  .question p {
+    text-indent: 2rem;
+  }
+}
