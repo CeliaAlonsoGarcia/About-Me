@@ -65,13 +65,13 @@ nav .links-items:hover {
   display: none;
 }
 .mobile-menu {
-  color: black;
+  color: white;
   display: none;
   position: absolute;
   right: 0;
   height: 60vh;
   width: 70vw;
-  background-color: lightcyan;
+  background-color: #00acff;
   font-weight: 800;
   font-size: x-large;
 }
@@ -92,7 +92,7 @@ nav .links-items:hover {
     margin: 1rem 2rem 0;
   }
   nav .links-items:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 211 52);
     border-radius: 1rem;
     cursor: pointer;
   }
