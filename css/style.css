@@ -9,12 +9,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-footer {
+/* footer {
   left: 0;
   bottom: 0;
   margin-top: 2rem;
   width: 100%;
-}
+} */
 
 a {
   color: inherit;
@@ -30,7 +30,7 @@ nav {
   /* top: 0;  top: 0, so that the nav bar stays on the top */
   background-color: white;
   border-radius: 0.5rem;
-  padding: 2rem 0rem;
+  padding: 0rem 0rem;
   padding-bottom: -1rem;
   margin-top: 0.5rem;
   color: #00acff;
