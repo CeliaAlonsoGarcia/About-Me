@@ -99,4 +99,39 @@ h3 {
     width: 20rem;
     padding: 1rem;
   }
+  .accordion {
+    margin-right: 2rem;
+    font-size: 15px;
+    max-width: 15rem;
+  }
+  h3 {
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .panel p {
+    font-size: 15px;
+  }
+  .start {
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    text-indent: 0rem;
+    line-height: normal;
+    padding: 0rem;
+  }
+
+  .nostart {
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    text-indent: 0rem;
+    line-height: normal;
+    padding: 0rem;
+  }
 }
