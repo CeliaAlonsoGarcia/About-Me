@@ -56,7 +56,7 @@ ul {
   list-style: none;
 }
 
-.panel p {
+.start {
   text-indent: 2rem;
   padding: 0 2rem;
   margin: 1rem 2rem 2rem;
@@ -75,6 +75,14 @@ h3 {
 
 .question p {
   text-indent: 4rem;
+}
+
+.nostart {
+  text-indent: 0rem;
+  padding: 0 2rem;
+  margin: 1rem 2rem 2rem;
+  line-height: 2rem;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
